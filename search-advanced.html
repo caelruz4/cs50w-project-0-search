@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>Search</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><strong>Search Engine</strong></li>
+            </ul>
+            <ul>
+                <li><a href="index.html">Search</a></li>
+                <li><a href="search-images.html">Images</a></li>
+                <li><a href="search-advanced.html">Advanced</a></li>
+            </ul>
+        </nav>
+        <h1>Advanced Search</h1>
+        <!-- form search google images -->
+        <h3>
+            Find pages with...
+        </h3>
+
+        
+    <form action="https://www.google.com/search" method="GET">
+        <input type="text" name="as_q" placeholder="All these words">
+        <br>
+        <input type="text" name="as_epq" placeholder="This exact word or phrase">
+        <br>
+        <input type="text" name="as_oq" placeholder="Any of these words">
+        <br>
+        <input type="text" name="as_eq" placeholder="None of these words">
+        <br>
+        <input type="submit" value="Search">
+    </form>
+
+    </div>
+</body>
+
+</html>

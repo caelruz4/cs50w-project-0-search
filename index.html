@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bf2939f25e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="static/styles.css">
+    <title>Search</title>
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a class="link" href="index.html">Search</a></li>
+                <li><a class="link" href="search-images.html">Images</a></li>
+                <li><a class="link" href="search-advanced.html">Advanced</a></li>
+                <li><a href="https://github.com/caelruz4/"><i class="fab fa-github"></i></a></li>
+                <li><a class="menu-icon" href="https://workspace.google.com/intl/es-419/features/"><i
+                            class="fas fa-solid fa-bars"></i></a></li>
+                <li><a class="user-icon" href="https://myaccount.google.com/"><span>LC</span></a></li>
+                <!-- <li><a class="user-icon" href="https://myaccount.google.com/"><img src="static/user-placeholder.png" alt="User"></a></li> -->
+
+            </ul>
+    </header>
+    <!-- End Navbar -->
+
+
+    <!-- Start Form container -->
+    <section class="content-section">
+        <div class="content-wrapper">
+
+            <img class="logo-img" src="static/images/google-gif.gif" alt="Google Logo Image">
+            <div class="search-bar">
+
+                <i class="fas fa-search"></i>
+                <form id="search-form" action="https://www.google.com/search" method="GET">
+
+                    <input id="search-input" class="search-input" name="q" type="text"
+                        placeholder="Search Google or type a URL">
+                    <!-- <div>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-microphone"></i>
+                   </div> -->
+
+            </div>
+            <div class="search-btns">
+                <button type="submit" class="google-search-btn">Google Search</button>
+                <button type="submit" name="btnI" class="lucky-search-btn" id="feel-lucky">I'm Feeling Lucky</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Form container -->
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="footer-content upper-footer">
+            <p>Nicaragua</p>
+        </div>
+        <div class="footer-content lower-footer">
+            <ul class="lower-left-footer">
+                <li>
+                    <a href="https://about.google/?utm_source=google-NI&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+                </li>
+                <li>
+                    <a href="https://ads.google.com/intl/es-419/home/">Advertising</a>
+                </li>
+                <li>
+                    <a href="https://smallbusiness.withgoogle.com/intl/es-419/?c=NI#!/">Business</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a>
+                </li>
+            </ul>
+            <ul class="lower-right-footer">
+                <li>
+                    <a href="https://policies.google.com/privacy?hl=en-NI&fg=1">Privacy</a>
+                </li>
+                <li>
+                    <a href="https://policies.google.com/">Terms</a>
+                </li>
+                <li>
+                    <a>Settings</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="static/script.js"></script>
+</body>
+
+</html>
