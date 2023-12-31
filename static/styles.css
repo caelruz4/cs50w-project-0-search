@@ -29,6 +29,7 @@ header {
 .navbar {
   height: 100%;
   width: 100%;
+  margin-top: 0.5rem;
   padding: 10px 20px;
 }
 
@@ -109,7 +110,7 @@ header {
 }
 
 .logo-img-images {
-  width: 360px;
+  width: 330px;
   margin-bottom: 50px;
   height: auto;
 }
@@ -176,7 +177,7 @@ header {
 
 /* Footer */
 footer {
-  margin-top: -1rem;
+  margin-top: -1.5rem;
   background-color: #ebebeb;
   height: 100px;
 }
@@ -277,11 +278,6 @@ footer {
   
   .lucky-search-btn {
       width: 120px;
-  }
-
-  /* Language */
-  .language {
-      font-size: 12px;
   }
 
   /* Footer */
